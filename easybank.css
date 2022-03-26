@@ -34,7 +34,7 @@
     border: 0;
     cursor: pointer;
     background: linear-gradient(to right, rgb(138, 241, 117),rgb(83, 83, 243));
-    color: #999;
+    color: rgb(255, 255, 255);
 }
 .nav-btn:hover{
     background: linear-gradient(to right, rgb(132, 248, 122),rgb(70, 70, 245));
@@ -150,6 +150,26 @@
     border: 1px solid #f0f0f0;
     cursor: pointer;
 }
-.section-two-card :hover{
+.section-two-card:hover{
     box-shadow: 0px 0px 12px -2px #a8a8a8;
+}
+.section-two-card-container{
+    padding: 50px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: #2d314d;
+    color: white;
+}
+.footer-links li{
+    color: white;
+    list-style: none ;
+    
+
+}
+.footer-links {
+    display: flex;
+    gap: 50px;
+    
 }
